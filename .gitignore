@@ -1,0 +1,10 @@
+*.obj
+*.html
+*.lst
+*.__i
+*.__ia
+*.o
+*.d
+*.crf
+
+/VS_Compile

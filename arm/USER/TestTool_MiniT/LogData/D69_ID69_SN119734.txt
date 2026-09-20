@@ -1,0 +1,44 @@
+2019-01-24 13:59:49 -------------------------------------------------------
+2019-01-24 13:59:49 ID:69  ,Serial Number:119734 ,Test start!
+2019-01-24 13:59:49 Open relay 1! Wait 3 (s)
+2019-01-24 13:59:50 Open relay 1! Wait 2 (s)
+2019-01-24 13:59:51 Open relay 1! Wait 1 (s)
+2019-01-24 13:59:53 Waiting for the output response! 5(s)
+2019-01-24 13:59:54 Waiting for the output response! 4(s)
+2019-01-24 13:59:55 Waiting for the output response! 3(s)
+2019-01-24 13:59:56 Waiting for the output response! 2(s)
+2019-01-24 13:59:57 Waiting for the output response! 1(s)
+2019-01-24 13:59:58 Relay1 compare success!
+2019-01-24 13:59:59 Open relay 1 success!
+2019-01-24 14:00:02 Relay 1 ,Value 23! (1)
+2019-01-24 14:00:03 Current value : 23 OK .Switch to Next Relay
+2019-01-24 14:00:03 ID:69 , Relay: 1 , test success!
+2019-01-24 14:00:03 Open relay 2! Wait 3 (s)
+2019-01-24 14:00:04 Open relay 2! Wait 2 (s)
+2019-01-24 14:00:05 Open relay 2! Wait 1 (s)
+2019-01-24 14:00:06 Waiting for the output response! 5(s)
+2019-01-24 14:00:07 Waiting for the output response! 4(s)
+2019-01-24 14:00:08 Waiting for the output response! 3(s)
+2019-01-24 14:00:09 Waiting for the output response! 2(s)
+2019-01-24 14:00:10 Waiting for the output response! 1(s)
+2019-01-24 14:00:11 Relay2 compare success!
+2019-01-24 14:00:12 Open relay 2 success!
+2019-01-24 14:00:15 Relay 2 ,Value 23! (1)
+2019-01-24 14:00:16 Current value : 23 OK .Switch to Next Relay
+2019-01-24 14:00:16 ID:69 , Relay: 2 , test success!
+2019-01-24 14:00:16 Open relay 3! Wait 3 (s)
+2019-01-24 14:00:17 Open relay 3! Wait 2 (s)
+2019-01-24 14:00:18 Open relay 3! Wait 1 (s)
+2019-01-24 14:00:19 Waiting for the output response! 5(s)
+2019-01-24 14:00:20 Waiting for the output response! 4(s)
+2019-01-24 14:00:21 Waiting for the output response! 3(s)
+2019-01-24 14:00:22 Waiting for the output response! 2(s)
+2019-01-24 14:00:23 Waiting for the output response! 1(s)
+2019-01-24 14:00:25 Relay3 compare success!
+2019-01-24 14:00:26 Open relay 3 success!
+2019-01-24 14:00:29 Relay 3 ,Value 23! (1)
+2019-01-24 14:00:29 Current value : 23 OK .Switch to Next Relay
+2019-01-24 14:00:29 ID:69 , Relay: 3 , test success!
+2019-01-24 14:00:29 Open relay 4! Wait 3 (s)
+2019-01-24 14:00:30 Open relay 4! Wait 2 (s)
+2019-01-24 14:00:31 Open relay 4! Wait 1 (s)

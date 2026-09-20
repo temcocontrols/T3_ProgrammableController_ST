@@ -1,0 +1,232 @@
+
+--- Module:   stm32f10x_it.c (C)
+
+--- Module:   system_stm32f10x.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\misc.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_adc.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_crc.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_dma.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_exti.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_flash.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_gpio.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_iwdg.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_rcc.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_rtc.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_spi.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_tim.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_usart.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_wwdg.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_bkp.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_pwr.c (C)
+
+--- Module:   ..\CORE\core_cm3.c (C)
+
+--- Module:   ..\HARDWARE\IIC\myiic.c (C)
+
+--- Module:   ..\HARDWARE\24CXX\24cxx.c (C)
+
+--- Module:   ..\HARDWARE\SPI\spi.c (C)
+
+--- Module:   ..\HARDWARE\FLASH\flash.c (C)
+
+--- Module:   ..\HARDWARE\STMFLASH\stmflash.c (C)
+
+--- Module:   ..\HARDWARE\TIMER\timerx.c (C)
+
+--- Module:   ..\HARDWARE\ENC28J60\enc28j60.c (C)
+
+--- Module:   ..\HARDWARE\RTC\rtc.c (C)
+
+--- Module:   ..\HARDWARE\SDCARD\MMC_SD.C (C)
+
+--- Module:   ..\HARDWARE\EMMC\SdioEmmcDrive.c (C)
+
+--- Module:   ..\HARDWARE\SDCARD\sdcard.c (C)
+
+--- Module:   ..\STM32F10x_FWLib\src\stm32f10x_sdio.c (C)
+
+--- Module:   ..\FreeRTOS\tasks.c (C)
+	static uint16_t prvTaskCheckFreeStackSpace( const uint8_t * pucStackByte ) PRIVILEGED_FUNCTION;
+                        ^
+"*** LINT: ..\FreeRTOS\tasks.c(528) Note 956: Non const, non volatile static or external variable 'uint16_t'"
+
+	static uint16_t prvTaskCheckFreeStackSpace( const uint8_t * pucStackByte )
+                        ^
+"*** LINT: ..\FreeRTOS\tasks.c(3533) Note 956: Non const, non volatile static or external variable 'uint16_t'"
+
+
+--- Module:   ..\FreeRTOS\list.c (C)
+
+--- Module:   ..\FreeRTOS\queue.c (C)
+
+--- Module:   ..\FreeRTOS\portable\RVDS\ARM_CM3\port.c (C)
+static UBaseType_t uxCriticalNesting = 0xaaaaaaaa;
+                                     ^
+"*** LINT: ..\FreeRTOS\portable\RVDS\ARM_CM3\port.c(150) Note 956: Non const, non volatile static or external variable 'uxCriticalNesting'"
+
+
+--- Module:   ..\FreeRTOS\portable\MemMang\heap_2.c (C)
+	static uint8_t ucHeap[ configTOTAL_HEAP_SIZE ];
+                       ^
+"*** LINT: ..\FreeRTOS\portable\MemMang\heap_2.c(109) Note 956: Non const, non volatile static or external variable 'uint8_t'"
+
+static BlockLink_t xStart, xEnd;
+                         ^
+"*** LINT: ..\FreeRTOS\portable\MemMang\heap_2.c(126) Note 956: Non const, non volatile static or external variable 'xStart'"
+
+                               ^
+"*** LINT: ..\FreeRTOS\portable\MemMang\heap_2.c(126) Note 956: Non const, non volatile static or external variable 'xEnd'"
+
+static size_t xFreeBytesRemaining = configADJUSTED_HEAP_SIZE;
+                                  ^
+"*** LINT: ..\FreeRTOS\portable\MemMang\heap_2.c(130) Note 956: Non const, non volatile static or external variable 'xFreeBytesRemaining'"
+
+static BaseType_t xHeapHasBeenInitialised = pdFALSE;
+                                          ^
+"*** LINT: ..\FreeRTOS\portable\MemMang\heap_2.c(163) Note 956: Non const, non volatile static or external variable 'xHeapHasBeenInitialised'"
+
+
+--- Module:   ..\SYSTEM\usart\usart.c (C)
+FILE __stdout;
+             ^
+"*** LINT: ..\SYSTEM\usart\usart.c(30) Note 956: Non const, non volatile static or external variable '__stdout'"
+
+u16 USART_RX_STA = 0;       //接收状态标记	  
+                 ^
+"*** LINT: ..\SYSTEM\usart\usart.c(80) Note 956: Non const, non volatile static or external variable 'USART_RX_STA'"
+
+
+--- Module:   ..\SYSTEM\delay\delay.c (C)
+static u8  fac_us = 0;	//us延时倍乘数			   
+                  ^
+"*** LINT: ..\SYSTEM\delay\delay.c(9) Note 956: Non const, non volatile static or external variable 'fac_us'"
+
+static u16 fac_ms = 0;	//ms延时倍乘数,在os下,代表每个节拍的ms数
+                  ^
+"*** LINT: ..\SYSTEM\delay\delay.c(10) Note 956: Non const, non volatile static or external variable 'fac_ms'"
+
+
+--- Module:   ..\uIP-1.0\uip\psock.c (C)
+buf_bufdata(struct psock_buf *buf, u16_t len,
+^
+"*** LINT: ..\uIP-1.0\uip\psock.c(83) Note 956: Non const, non volatile static or external variable 'u8_t'"
+
+
+--- Module:   ..\uIP-1.0\uip\timer.c (C)
+
+--- Module:   ..\uIP-1.0\uip\uip.c (C)
+uip_ipaddr_t uip_hostaddr, uip_draddr, uip_netmask, uip_hostaddr_submask;
+                         ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(113) Note 956: Non const, non volatile static or external variable 'uip_hostaddr'"
+
+                                     ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(113) Note 956: Non const, non volatile static or external variable 'uip_draddr'"
+
+                                                  ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(113) Note 956: Non const, non volatile static or external variable 'uip_netmask'"
+
+                                                                        ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(113) Note 956: Non const, non volatile static or external variable 'uip_hostaddr_submask'"
+
+struct uip_eth_addr uip_ethaddr = {{0,0,0,0,0,0}};
+                                ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(138) Note 956: Non const, non volatile static or external variable 'uip_ethaddr'"
+
+void *uip_appdata;               /* The uip_appdata pointer points to
+                 ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(146) Note 956: Non const, non volatile static or external variable 'uip_appdata'"
+
+void *uip_sappdata;              /* The uip_appdata pointer points to
+                  ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(148) Note 956: Non const, non volatile static or external variable 'uip_sappdata'"
+
+u16_t uip_len, uip_slen;
+             ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(158) Note 956: Non const, non volatile static or external variable 'uip_len'"
+
+                       ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(158) Note 956: Non const, non volatile static or external variable 'uip_slen'"
+
+struct uip_conn *uip_conn;   /* uip_conn always points to the current
+                         ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(166) Note 956: Non const, non volatile static or external variable 'uip_conn'"
+
+struct uip_conn uip_conns[UIP_CONNS];
+                                    ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(169) Note 956: Non const, non volatile static or external variable 'uip_conns'"
+
+u16_t uip_listenports[UIP_LISTENPORTS];
+                                      ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(172) Note 956: Non const, non volatile static or external variable 'uip_listenports'"
+
+struct uip_udp_conn *uip_udp_conn;
+                                 ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(176) Note 956: Non const, non volatile static or external variable 'uip_udp_conn'"
+
+struct uip_udp_conn uip_udp_conns[UIP_UDP_CONNS];
+                                                ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(177) Note 956: Non const, non volatile static or external variable 'uip_udp_conns'"
+
+static u16_t ipid;           /* Ths ipid variable is an increasing
+                 ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(180) Note 956: Non const, non volatile static or external variable 'ipid'"
+
+static u8_t iss[4];          /* The iss variable is used for the TCP
+            ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(186) Note 956: Non const, non volatile static or external variable 'u8_t'"
+
+static u16_t lastport;       /* Keeps track of the last port used for
+                     ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(190) Note 956: Non const, non volatile static or external variable 'lastport'"
+
+static u8_t c, opt;
+            ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(196) Note 956: Non const, non volatile static or external variable 'u8_t'"
+
+static u16_t tmp16;
+                  ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(197) Note 956: Non const, non volatile static or external variable 'tmp16'"
+
+extern U16_T count_reintial_tcpip;
+                                 ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(235) Note 956: Non const, non volatile static or external variable 'count_reintial_tcpip'"
+
+struct uip_stats uip_stat;
+                         ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(238) Note 956: Non const, non volatile static or external variable 'uip_stat'"
+
+extern U16_T far Test[50];
+                         ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(419) Note 956: Non const, non volatile static or external variable 'Test'"
+
+extern u8 IP_Change;
+                   ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(420) Note 956: Non const, non volatile static or external variable 'IP_Change'"
+
+extern uint32_t run_time;
+                        ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(421) Note 956: Non const, non volatile static or external variable 'run_time'"
+
+extern u8 flag_reintial_tcpip;
+                             ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(422) Note 956: Non const, non volatile static or external variable 'flag_reintial_tcpip'"
+
+	static char reboot_tcpip = 0;
+                                 ^
+"*** LINT: ..\uIP-1.0\uip\uip.c(431) Note 956: Non const, non volatile static or external variable 'reboot_tcpip'"

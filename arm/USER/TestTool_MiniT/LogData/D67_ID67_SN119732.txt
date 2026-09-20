@@ -1,0 +1,77 @@
+2019-01-24 13:57:10 -------------------------------------------------------
+2019-01-24 13:57:10 ID:67  ,Serial Number:119732 ,Test start!
+2019-01-24 13:57:10 Open relay 1! Wait 3 (s)
+2019-01-24 13:57:11 Open relay 1! Wait 2 (s)
+2019-01-24 13:57:12 Open relay 1! Wait 1 (s)
+2019-01-24 13:57:13 Waiting for the output response! 5(s)
+2019-01-24 13:57:14 Waiting for the output response! 4(s)
+2019-01-24 13:57:16 Waiting for the output response! 3(s)
+2019-01-24 13:57:17 Waiting for the output response! 2(s)
+2019-01-24 13:57:18 Waiting for the output response! 1(s)
+2019-01-24 13:57:19 Relay1 compare success!
+2019-01-24 13:57:20 Open relay 1 success!
+2019-01-24 13:57:23 Relay 1 ,Value 22! (1)
+2019-01-24 13:57:23 Current value : 22 OK .Switch to Next Relay
+2019-01-24 13:57:23 ID:67 , Relay: 1 , test success!
+2019-01-24 13:57:23 Open relay 2! Wait 3 (s)
+2019-01-24 13:57:24 Open relay 2! Wait 2 (s)
+2019-01-24 13:57:26 Open relay 2! Wait 1 (s)
+2019-01-24 13:57:27 Waiting for the output response! 5(s)
+2019-01-24 13:57:28 Waiting for the output response! 4(s)
+2019-01-24 13:57:29 Waiting for the output response! 3(s)
+2019-01-24 13:57:30 Waiting for the output response! 2(s)
+2019-01-24 13:57:31 Waiting for the output response! 1(s)
+2019-01-24 13:57:32 Relay2 compare success!
+2019-01-24 13:57:33 Open relay 2 success!
+2019-01-24 13:57:36 Relay 2 ,Value 21! (1)
+2019-01-24 13:57:37 Current value : 21 OK .Switch to Next Relay
+2019-01-24 13:57:37 ID:67 , Relay: 2 , test success!
+2019-01-24 13:57:37 Open relay 3! Wait 3 (s)
+2019-01-24 13:57:38 Open relay 3! Wait 2 (s)
+2019-01-24 13:57:39 Open relay 3! Wait 1 (s)
+2019-01-24 13:57:40 Waiting for the output response! 5(s)
+2019-01-24 13:57:41 Waiting for the output response! 4(s)
+2019-01-24 13:57:42 Waiting for the output response! 3(s)
+2019-01-24 13:57:43 Waiting for the output response! 2(s)
+2019-01-24 13:57:44 Waiting for the output response! 1(s)
+2019-01-24 13:57:45 Relay3 compare success!
+2019-01-24 13:57:46 Open relay 3 success!
+2019-01-24 13:57:49 Relay 3 ,Value 21! (1)
+2019-01-24 13:57:50 Current value : 21 OK .Switch to Next Relay
+2019-01-24 13:57:50 ID:67 , Relay: 3 , test success!
+2019-01-24 13:57:50 Open relay 4! Wait 3 (s)
+2019-01-24 13:57:51 Open relay 4! Wait 2 (s)
+2019-01-24 13:57:52 Open relay 4! Wait 1 (s)
+2019-01-24 13:57:53 Waiting for the output response! 5(s)
+2019-01-24 13:57:54 Waiting for the output response! 4(s)
+2019-01-24 13:57:55 Waiting for the output response! 3(s)
+2019-01-24 13:57:56 Waiting for the output response! 2(s)
+2019-01-24 13:57:57 Waiting for the output response! 1(s)
+2019-01-24 13:57:59 Relay4 compare success!
+2019-01-24 13:58:00 Open relay 4 success!
+2019-01-24 13:58:03 Relay 4 ,Value 21! (1)
+2019-01-24 13:58:03 Current value : 21 OK .Switch to Next Relay
+2019-01-24 13:58:03 ID:67 , Relay: 4 , test success!
+2019-01-24 13:58:03 Open relay 5! Wait 3 (s)
+2019-01-24 13:58:04 Open relay 5! Wait 2 (s)
+2019-01-24 13:58:05 Open relay 5! Wait 1 (s)
+2019-01-24 13:58:07 Waiting for the output response! 5(s)
+2019-01-24 13:58:08 Waiting for the output response! 4(s)
+2019-01-24 13:58:09 Waiting for the output response! 3(s)
+2019-01-24 13:58:10 Waiting for the output response! 2(s)
+2019-01-24 13:58:11 Waiting for the output response! 1(s)
+2019-01-24 13:58:12 Relay5 compare success!
+2019-01-24 13:58:13 Open relay 5 success!
+2019-01-24 13:58:16 Relay 5 ,Value 21! (1)
+2019-01-24 13:58:17 Current value : 21 OK .Switch to Next Relay
+2019-01-24 13:58:17 ID:67 , Relay: 5 , test success!
+2019-01-24 13:58:17 Close  relay1 relay2 relay3 relay4 relay5 success!
+2019-01-24 13:58:18 Input 1 failed! Value 262!
+2019-01-24 13:58:19 Input 2 failed! Value 180!
+2019-01-24 13:58:20 Input 3 failed! Value 261!
+2019-01-24 13:58:21 Input 4 failed! Value 179!
+2019-01-24 13:58:22 Input 5 failed! Value 264!
+2019-01-24 13:58:23 Input 6 failed! Value 176!
+2019-01-24 13:58:24 Input 7 failed! Value 263!
+2019-01-24 13:58:25 Input 8 failed! Value 176!
+2019-01-24 13:58:26 ID:67 serialnumber:119732 test failed!
